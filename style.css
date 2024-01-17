@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popping',sans-serif;
+}
+
+
+body {
+    background-color:white;
+    min-height: 100vh;
+    /* overflow: hidden; */
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    background:#359381;
+    color:white;
+
+}
+
+.logo {
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 280px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color:#359381 ;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+
+ .parallax {
+     
+     /* position: absolute;
+     font-size: 2em;
+     color: orange; */
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+     font-size: 4em;
+     color:#fff;
+}
+
+.parallax img {
+   width: 500px;
+   height: auto;
+   padding: 10px;
+   
+}
+
+.parallax img {
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    /* background: #003332; */
+    /* background:#359381; */
+    background:#00342a;
+    padding: 100px;
+}
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.sec p {
+    font-size: 1em;
+    color:#fff;
+    font-weight: 300;
+    
+
+}
+
+.copyright p {
+ text-align: center;
+ margin-top: 60px;
+ padding-top: 60px;
+ color: black;
+ font-size: small;
+}
+
+
